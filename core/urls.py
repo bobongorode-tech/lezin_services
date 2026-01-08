@@ -21,4 +21,5 @@ urlpatterns = [
     path('colis/', views.maintenance, name='colis'),
     path('alimentation/', views.maintenance, name='alimentation'),
     path('passeport/', views.maintenance, name='passeport'),
+    path('location/', views.maintenance, name='location'),
 ]
